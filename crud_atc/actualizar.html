@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Atención a clientes
+        </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+            <form class="form" action="update.php" method="POST" style="padding-left: 25%; padding-top: 5%; padding-right: 25%; padding-bottom: 5%;">	
+                    <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" style="width: 230px;">Nombre:</span>
+                            </div>
+                            <input type="text" aria-label="Nombre" class="form-control">
+                          </div>
+                          <br>				    
+                        <div class="input-group">
+                        <div class="input-group-prepend">
+                         <span class="input-group-text" style="width: 230px;">Fecha de contacto:</span>
+                        </div>
+                        <input id="fSolicitudFormularioInput" class="form-control" type="datetime-local">
+                        </div>		
+                        <br>				    
+                          <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" style="width: 230px;">Correo electrónico:</span>
+                                </div>
+                                <input type="text" aria-label="Nombre" class="form-control">
+                              </div>
+                              <br>
+                              <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" style="width: 230px;">Teléfono:</span>
+                                    </div>
+                                    <input type="text" aria-label="Nombre" class="form-control">
+                                  </div>
+                                  <br>
+                                  <div class="input-group">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text" style="width: 230px;">Motivo del contacto: </span>
+                                        </div>
+                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                      </div>
+                                      <br>
+                                      <div class="input-group">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text" style="width: 230px;">Datos sobre solicitudes: </span>
+                                            </div>
+                                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                                          </div>
+                        <br>
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                 <span class="input-group-text" style="width: 230px;">Fecha para futuras llamadas:</span>
+                                </div>
+                                <input id="fSolicitudFormularioInput" class="form-control" type="datetime-local">
+                                </div>	
+                                <br>
+                                <div class="input-group">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text" style="width: 230px;">Información adicional: </span>
+                                      </div>
+                                      <textarea class="form-control" aria-label="With textarea"></textarea>
+                                    </div>
+                                    <br>
+                                    <button type="submit" class="btn btn-secondary" style="width: 100%;">Guardar</button>
+                  </form>
+    </body>
+</html>
